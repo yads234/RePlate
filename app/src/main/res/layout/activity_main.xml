@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5EDD6"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RePlate"
+        android:textSize="24sp"
+        android:textColor="#365B37"
+        android:fontFamily="sans-serif-medium" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_notifications"
+        android:contentDescription="Notification Icon"
+        android:layout_marginTop="-32dp"
+        android:layout_marginEnd="16dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:layout_marginTop="16dp"
+        android:gap="8dp">
+
+        <Button
+            android:id="@+id/donate_food"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Donate Food"
+            android:textColor="#F5EDD6"
+            android:backgroundTint="#365B37" />
+
+        <Button
+            android:id="@+id/find_food"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Find Food"
+            android:textColor="#F5EDD6"
+            android:backgroundTint="#365B37" />
+
+        <Button
+            android:id="@+id/track_inventory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Track Inventory"
+            android:textColor="#F5EDD6"
+            android:backgroundTint="#365B37" />
+
+        <Button
+            android:id="@+id/tips_recipes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Tips and Recipes"
+            android:textColor="#F5EDD6"
+            android:backgroundTint="#365B37" />
+
+        <Button
+            android:id="@+id/eco_impact_tracker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Eco-Impact Tracker"
+            android:textColor="#F5EDD6"
+            android:backgroundTint="#365B37" />
+
+        <Button
+            android:id="@+id/community_challenges"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Community Challenges"
+            android:textColor="#F5EDD6"
+            android:backgroundTint="#365B37" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="#F5EDD6"
+        android:backgroundTint="#365B37"
+        android:drawableStart="@drawable/ic_profile"
+        android:gravity="start|center_vertical"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
